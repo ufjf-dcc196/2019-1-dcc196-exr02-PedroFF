@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">Exercicio02</string>
+    <string name="soma">Soma</string>
+    <string name="digite_o_segundo_n_mero">Digite o segundo número</string>
+    <string name="digite_o_primeiro_n_mero">Digite o primeiro número</string>
 </resources>
