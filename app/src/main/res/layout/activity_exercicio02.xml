@@ -19,14 +19,14 @@
         android:text="@string/soma"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.285"
+        app:layout_constraintHorizontal_bias="0.246"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/segundo_numero"
         app:layout_constraintVertical_bias="0.015" />
 
     <EditText
         android:id="@+id/primeiro_numero"
-        android:layout_width="212dp"
+        android:layout_width="234dp"
         android:layout_height="50dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
@@ -37,7 +37,7 @@
         android:autofillHints=""
         android:ems="10"
         android:hint="@string/digite_o_primeiro_n_mero"
-        android:inputType="number"
+        android:inputType="numberSigned"
         app:layout_constraintBottom_toTopOf="@+id/segundo_numero"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.512"
@@ -47,7 +47,7 @@
 
     <EditText
         android:id="@+id/segundo_numero"
-        android:layout_width="209dp"
+        android:layout_width="232dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
@@ -57,7 +57,7 @@
         android:layout_marginBottom="8dp"
         android:ems="10"
         android:hint="@string/digite_o_segundo_n_mero"
-        android:inputType="number"
+        android:inputType="numberSigned"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.503"
@@ -80,7 +80,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/segundo_numero"
-        app:layout_constraintVertical_bias="0.581" />
+        app:layout_constraintVertical_bias="0.588" />
 
     <Button
         android:id="@+id/btn_multiplica"
@@ -131,8 +131,8 @@
         android:text="@string/dividir"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.285"
+        app:layout_constraintHorizontal_bias="0.246"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn_soma"
-        app:layout_constraintVertical_bias="0.079" />
+        app:layout_constraintVertical_bias="0.072" />
 </android.support.constraint.ConstraintLayout>
